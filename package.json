@@ -1,0 +1,30 @@
+{
+  "name": "@tranzo-fi/tranzo-types",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@typechain/ethers-v5": "6.0.5",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^9.1.1",
+    "typechain": "4.0.3"
+  },
+  "description": "Contract types for Tranzo",
+  "scripts": {
+    "generate": "ts-node type-generate.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tranzo-Fi/tranzo-types.git"
+  },
+  "keywords": [
+    "tranzo-fi",
+    "tranzo"
+  ],
+  "author": "saranonearth",
+  "bugs": {
+    "url": "https://github.com/Tranzo-Fi/tranzo-types/issues"
+  },
+  "homepage": "https://github.com/Tranzo-Fi/tranzo-types#readme"
+}
